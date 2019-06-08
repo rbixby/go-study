@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/rbixby/go-study/stringutil"
+)
 
 func main() {
-	fmt.Printf("Hello, you have successfully installed golang in linux.")
+	fmt.Printf(stringutils.Reverse("Hello, you have successfully installed golang in linux."))
 }
